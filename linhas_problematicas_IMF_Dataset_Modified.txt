@@ -1,0 +1,19 @@
+ERROS QUE SEGUEM O MESMO PADRÃO: [2, 2, 3, 3, 4, 4]
+2362, 2363, 2364, 2365, 2366, 2367: Malta (de 2016 a 2021) com valores fora do padrão binário em monit_sup_ER
+
+2584, 2585, 2586, 2587, 2588, 2589: Netherlands (2016 a 2021) com valores fora do padrão binário em enforc_nat_RR
+
+2103, 2104, 2105, 2106, 2107, 2108: Latvia (2016 a 2021) com valores fora do padrão binário em EC_sup_ER 
+
+
+ERROS NÃO SIGNIFICATIVOS PARA A ANÁLISE
+
+1329, 1330, 1331: France (2019, 2020, 2021) com o caractere "`" no campo EC_nat_DR. Dado que não há debt rule em vigor, pode-se considerar como simples erro de digitação e considerar como '-'. (Checar manual técnico para mais informações)
+1627: Hungary (2021) sem dado em 'low_income'. Simplesmente substituir com 0.
+
+OCORRÊNCIAS MÚLTIPLAS
+
+200 linhas (Netherlands, Spain, Finland, Denmark, Bulgaria, Argentina, Israel, Malaysia, Tanzania, Luxembourg) com 0.5 no campo invest_excluded_nat
+
+120 linhas (Benin, Burkina Fasho, Côte d'lvoire, Guinea Bissau, Mali, Niger, Togo, Senegal) com 0.5 no campo invest_excluded_sup
+
